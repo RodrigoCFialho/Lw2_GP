@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Launch.cs" />
+    <Compile Include="Assets\Scripts\ExplosionDismiss.cs" />
     <Compile Include="Assets\Scripts\DepthCharge.cs" />
     <Compile Include="Assets\Scripts\ExplosionEffect.cs" />
     <Compile Include="Assets\Scripts\InputSystem.cs" />

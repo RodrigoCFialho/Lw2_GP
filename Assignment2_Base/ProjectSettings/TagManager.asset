@@ -8,6 +8,8 @@ TagManager:
   - Explosive
   - Wall
   - SmallBomb
+  - LowerLimit
+  - Submarine
   layers:
   - Default
   - TransparentFX
@@ -16,9 +18,9 @@ TagManager:
   - Water
   - UI
   - DepthCharge
-  - 
-  - 
-  - 
+  - LowerLimit
+  - Submarine
+  - Mine
   - 
   - 
   - 

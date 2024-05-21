@@ -18,4 +18,17 @@ public class DepthCharge : MonoBehaviour
     {
         myRigidbody2D.velocity = new Vector2 (myRigidbody2D.velocity.x, -speed);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("LowerLimit") || collision.gameObject.CompareTag("Submarine") || collision.gameObject.CompareTag("Mine"))
+        {
+            gameObject.GetComponent<ExplosionEffect>().Explode();
+        }
+    }
+
+    public void Dismiss()
+    {
+        Destroy(gameObject);
+    }
 }

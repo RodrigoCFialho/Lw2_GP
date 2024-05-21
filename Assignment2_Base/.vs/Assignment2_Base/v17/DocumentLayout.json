@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\explosiondismiss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\explosiondismiss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\scripts\\depthcharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\explosioneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\explosioneffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\depthcharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\depthcharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,6 +47,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExplosionDismiss.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\ExplosionDismiss.cs",
+              "RelativeDocumentMoniker": "Assets\\ExplosionDismiss.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\ExplosionDismiss.cs",
+              "RelativeToolTip": "Assets\\ExplosionDismiss.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T22:06:36.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Explosion.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Explosion.cs",
+              "RelativeDocumentMoniker": "Assets\\Explosion.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Explosion.cs",
+              "RelativeToolTip": "Assets\\Explosion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:52:10.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExplosionEffect.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\ExplosionEffect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExplosionEffect.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\ExplosionEffect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExplosionEffect.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T21:43:15.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepthCharge.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\DepthCharge.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DepthCharge.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\DepthCharge.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DepthCharge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T18:26:02.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Launch.cs",
               "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Launch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Launch.cs",
@@ -42,25 +103,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Launch.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T18:26:09.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T18:26:09.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepthCharge.cs",
-              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\DepthCharge.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DepthCharge.cs",
-              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\DepthCharge.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DepthCharge.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T18:26:02.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Movement.cs",
               "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
@@ -68,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T18:16:54.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-21T18:16:54.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -85,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "InputSystem.cs",
               "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\InputSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputSystem.cs",
