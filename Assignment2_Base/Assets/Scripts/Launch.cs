@@ -1,14 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Launch : MonoBehaviour
 {
     [SerializeField]
-    private DepthCharge depthChargePrefab;
+    private Transform spawnPoint;
 
     [SerializeField]
-    private Transform spawnPoint;
+    private float depthChargeSpeed = 3f;
 
     private float depthChargeMaxCapacity = 10f;
 
@@ -23,10 +21,11 @@ public class Launch : MonoBehaviour
     {
         if (0f < depthChargeStock && depthChargeStock <= depthChargeMaxCapacity)
         {
-            DepthCharge depthCharge = Instantiate(depthChargePrefab, spawnPoint.position, spawnPoint.rotation);
-            depthChargeStock = depthChargeStock - 1f;
+            GameObject depthCharge = PoolManager.Instance.DepthChargePool.Get();
+            depthCharge.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
+            depthCharge.GetComponent<Rigidbody2D>().velocity = new Vector2(depthCharge.GetComponent<Rigidbody2D>().velocity.x, -depthChargeSpeed);
+
+            depthChargeStock -= 1f;
         }
     }
-
-
 }

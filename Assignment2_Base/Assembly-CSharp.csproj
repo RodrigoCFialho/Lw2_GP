@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\DepthCharge.cs" />
     <Compile Include="Assets\Scripts\ExplosionEffect.cs" />
     <Compile Include="Assets\Scripts\InputSystem.cs" />
+    <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\PoolManager.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\CustomInputManager.cs" />
     <Compile Include="Assets\Custom Input.cs" />

@@ -3,24 +3,24 @@ using UnityEngine;
 public class CustomInputManager : MonoBehaviour
 {
     public static CustomInputManager Instance { get; private set; }
-    public CustomInput customInputsBindings { get; private set; }
+    private CustomInput customInput;
 
     private void Awake()
     {
-        if (Instance != null)
+        if (Instance == null)
         {
-            Destroy(gameObject);
+            Instance = this;
+            customInput = new CustomInput();
+            customInput.Enable();
         }
         else
         {
-            Instance = this;
-            SetupSingleton();
+            Destroy(gameObject);
         }
     }
 
-    private void SetupSingleton()
+    public CustomInput GetCustomInput()
     {
-        customInputsBindings = new CustomInput();
-        customInputsBindings.Enable();
+        return customInput;
     }
 }

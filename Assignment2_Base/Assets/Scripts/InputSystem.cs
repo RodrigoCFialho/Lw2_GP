@@ -17,7 +17,7 @@ public class InputSystem : MonoBehaviour
 
     private void Start()
     {
-        customInput = CustomInputManager.Instance.customInputsBindings;
+        customInput = CustomInputManager.Instance.GetCustomInput();
 
         customInput.Player.Movement.performed += InputMovementPerformed;
         customInput.Player.Movement.canceled += InputMovementCancelled;
@@ -48,5 +48,10 @@ public class InputSystem : MonoBehaviour
     private void InputLaunchPerformed(InputAction.CallbackContext context)
     {
         onEnableLaunchEvent.Invoke();
+    }
+
+    public void DisablePlayerControls()
+    {
+        customInput.Player.Disable();
     }
 }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -16,7 +14,11 @@ public class Movement : MonoBehaviour
 
     public void EnableMovementEvent(float moveInput)
     {
-        // movement
         myRigidbody2D.velocity = new Vector2 (moveInput * speed, myRigidbody2D.velocity.y);
+    }
+
+    public void Sink()
+    {
+        myRigidbody2D.velocity = new Vector2(myRigidbody2D.velocity.x, -speed);
     }
 }
