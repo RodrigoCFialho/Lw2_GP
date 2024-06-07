@@ -61,16 +61,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Launch.cs" />
+    <Compile Include="Assets\Scripts\Mines\PurpleMine.cs" />
     <Compile Include="Assets\Scripts\ExplosionDismiss.cs" />
+    <Compile Include="Assets\Scripts\Mines\YellowMine.cs" />
     <Compile Include="Assets\Scripts\DepthCharge.cs" />
     <Compile Include="Assets\Scripts\ExplosionEffect.cs" />
     <Compile Include="Assets\Scripts\InputSystem.cs" />
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\Mines\BlackMine.cs" />
+    <Compile Include="Assets\Scripts\Mines\BlueMine.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Mines\Mines.cs" />
+    <Compile Include="Assets\Scripts\Mines\SpetialMine.cs" />
+    <Compile Include="Assets\Scripts\Mines\RedMine.cs" />
     <Compile Include="Assets\Scripts\CustomInputManager.cs" />
     <Compile Include="Assets\Custom Input.cs" />
     <Compile Include="Assets\Scripts\SubmarineMovement.cs" />
+    <Compile Include="Assets\Scripts\SubmarineSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
