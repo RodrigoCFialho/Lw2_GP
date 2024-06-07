@@ -8,6 +8,7 @@ public class Launch : MonoBehaviour
     [SerializeField]
     private float depthChargeSpeed = 3f;
 
+    [SerializeField]
     private float depthChargeMaxCapacity = 10f;
 
     private float depthChargeStock = 0f;

@@ -3,22 +3,31 @@
   "WorkspaceRootPath": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\maria\\github\\lw2_gp\\assignment2_base\\assets\\scripts\\inputsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\maria\\github\\lw2_gp\\assignment2_base\\assets\\scripts\\submarinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\submarinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\maria\\ESTG\\1semestre\\programa\u00E7ao\\IP_Assignment2\\Assets\\_Script\\EnemyCrabby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\maria\\ESTG\\unity\\NPC_SOLVED\\Assets\\Scripts\\NPCController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\maria\\github\\lw2_gp\\assignment2_base\\assets\\scripts\\depthcharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\depthcharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\maria\\github\\lw2_gp\\assignment2_base\\assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\maria\\github\\lw2_gp\\assignment2_base\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\maria\\github\\lw2_gp\\assignment2_base\\assets\\scripts\\inputsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inputsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\submarinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\submarinemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\maria\\ESTG\\unity\\NPC_SOLVED\\Assets\\Scripts\\NPCController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,31 +42,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DepthCharge.cs",
+              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\DepthCharge.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DepthCharge.cs",
+              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\DepthCharge.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DepthCharge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T09:46:45.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Launch.cs",
+              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Launch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Launch.cs",
+              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Launch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Launch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T09:27:25.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
+              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T09:14:52.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "InputSystem.cs",
               "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\InputSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InputSystem.cs",
               "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\InputSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\InputSystem.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAsAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T12:21:11.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnemyCrabby.cs",
-              "DocumentMoniker": "D:\\maria\\ESTG\\1semestre\\programa\u00E7ao\\IP_Assignment2\\Assets\\_Script\\EnemyCrabby.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\ESTG\\1semestre\\programa\u00E7ao\\IP_Assignment2\\Assets\\_Script\\EnemyCrabby.cs",
-              "ToolTip": "D:\\maria\\ESTG\\1semestre\\programa\u00E7ao\\IP_Assignment2\\Assets\\_Script\\EnemyCrabby.cs",
-              "RelativeToolTip": "..\\..\\..\\ESTG\\1semestre\\programa\u00E7ao\\IP_Assignment2\\Assets\\_Script\\EnemyCrabby.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAJIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T11:19:12.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "NPCController.cs",
               "DocumentMoniker": "D:\\maria\\ESTG\\unity\\NPC_SOLVED\\Assets\\Scripts\\NPCController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\ESTG\\unity\\NPC_SOLVED\\Assets\\Scripts\\NPCController.cs",
@@ -69,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "SubmarineMovement.cs",
               "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\SubmarineMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SubmarineMovement.cs",
@@ -77,12 +113,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SubmarineMovement.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwDsAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T11:15:19.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T11:15:19.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Health.cs",
               "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Health.cs",
@@ -90,7 +125,8 @@
               "RelativeToolTip": "Assets\\Health.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T17:00:08.955Z"
+              "WhenOpened": "2024-05-22T17:00:08.955Z",
+              "EditorCaption": ""
             }
           ]
         }
