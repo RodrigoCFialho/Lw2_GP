@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5019487107131511675}
   - component: {fileID: 7020326822967155436}
   - component: {fileID: 4028572652176371223}
+  - component: {fileID: 1497925095947034928}
   m_Layer: 9
   m_Name: SpetialMine
   m_TagString: Untagged
@@ -161,3 +162,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1497925095947034928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518425000598420125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e646abecd540c40968daf916c90ece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnExplosionEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  explosionPrefab: {fileID: 0}
+  numberOfExplosions: 0
+  explosionsOffset: {x: 0, y: 0}
+  explosionsInterval: 0.1

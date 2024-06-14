@@ -8,4 +8,9 @@ public class BlueMine : MinesSubmarine
     {
         
     }
+
+    protected override void StopFalling()
+    {
+        mineRigidBody.simulated = false;
+    }
 }
