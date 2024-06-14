@@ -9,13 +9,14 @@ public class Launch : MonoBehaviour
     private float depthChargeSpeed = 3f;
 
     [SerializeField]
-    private float depthChargeMaxCapacity = 10f;
+    private int depthChargeMaxCapacity = 10;
 
-    private float depthChargeStock = 0f;
+    private int depthChargeStock = 0;
 
     private void Start()
     {
         depthChargeStock = depthChargeMaxCapacity;
+        UiManager.Instance.UpdateDepthChargeText(depthChargeStock, depthChargeMaxCapacity);
     }
 
     public void SpawnDepthCharge()
@@ -26,7 +27,8 @@ public class Launch : MonoBehaviour
             depthCharge.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
             depthCharge.GetComponent<Rigidbody2D>().velocity = new Vector2(depthCharge.GetComponent<Rigidbody2D>().velocity.x, -depthChargeSpeed);
 
-            depthChargeStock -= 1f;
+            depthChargeStock -= 1;
+            UiManager.Instance.UpdateDepthChargeText(depthChargeStock, depthChargeMaxCapacity);
         }
     }
 }

@@ -1,45 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\",
+  "WorkspaceRootPath": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\mines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\scripts\\submarinespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\submarinespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\github\\unity\\lw2_gp\\assignment2_base\\assets\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\poolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\mines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\mines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\bluemine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\bluemine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\bluemine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|d:\\maria\\github\\lw2_gp\\assignment2_base\\assets\\scripts\\mines\\yellowmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\yellowmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\yellowmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\spetialmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\spetialmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\spetialmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\blackmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\blackmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\blackmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\purplemine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\purplemine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\purplemine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\redmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\redmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\redmine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\minesairplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\minesairplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\minesairplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\minessubmarine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\minessubmarine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\minessubmarine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\minesdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\assets\\scripts\\mines\\minesdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A0A25DB-E076-0F87-D108-E5F10FED2F7F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mines\\minesdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,28 +70,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YellowMine.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\YellowMine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\YellowMine.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\YellowMine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Mines\\YellowMine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "DocumentIndex": 1,
+              "Title": "Launch.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Launch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Launch.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Launch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Launch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:16:53.645Z",
+              "WhenOpened": "2024-06-14T20:36:37.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UiManager.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\UiManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UiManager.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\UiManager.cs",
+              "RelativeToolTip": "Assets\\UiManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:28:26.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Health.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Health.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Health.cs",
+              "RelativeToolTip": "Assets\\Health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:42:28.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PoolManager.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\PoolManager.cs",
+              "RelativeDocumentMoniker": "Assets\\PoolManager.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\PoolManager.cs",
+              "RelativeToolTip": "Assets\\PoolManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T19:39:52.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SubmarineSpawner.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\SubmarineSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SubmarineSpawner.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\SubmarineSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SubmarineSpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T17:45:30.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "YellowMine.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\YellowMine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\YellowMine.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\YellowMine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mines\\YellowMine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:16:53.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SpetialMine.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\SpetialMine.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\SpetialMine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\SpetialMine.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\SpetialMine.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\SpetialMine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\SpetialMine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,11 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "RedMine.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\RedMine.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\RedMine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\RedMine.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\RedMine.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\RedMine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\RedMine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "PurpleMine.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\PurpleMine.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\PurpleMine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\PurpleMine.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\PurpleMine.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\PurpleMine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\PurpleMine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,37 +187,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "BlueMine.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlueMine.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlueMine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\BlueMine.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlueMine.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlueMine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\BlueMine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:15:32.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T19:15:32.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Mines.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\Mines.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\Mines.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\Mines.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\Mines.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\Mines.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\Mines.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:20:08.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:20:08.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "BlackMine.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlackMine.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlackMine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\BlackMine.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlackMine.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\BlackMine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\BlackMine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -141,11 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "MinesDamage.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesDamage.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\MinesDamage.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesDamage.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesDamage.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\MinesDamage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -153,11 +235,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "MinesSubmarine.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesSubmarine.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesSubmarine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\MinesSubmarine.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesSubmarine.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesSubmarine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\MinesSubmarine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -165,11 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "MinesAirplane.cs",
-              "DocumentMoniker": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesAirplane.cs",
+              "DocumentMoniker": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesAirplane.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mines\\MinesAirplane.cs",
-              "ToolTip": "D:\\maria\\Github\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesAirplane.cs",
+              "ToolTip": "D:\\Github\\Unity\\Lw2_GP\\Assignment2_Base\\Assets\\Scripts\\Mines\\MinesAirplane.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mines\\MinesAirplane.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

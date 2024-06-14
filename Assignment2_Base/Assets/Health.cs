@@ -11,15 +11,21 @@ public class Health : MonoBehaviour
     [SerializeField]
     private UnityEvent OnDie;
 
-    [SerializeField]
     private int health = 100;
 
-    private int maxHealth;
+    [SerializeField]
+    private int maxHealth = 100;
 
     private void Awake()
     {
         maxHealth = health;
         myRigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        health = maxHealth;
+        UpdateHealthUi();
     }
 
     public void TakeDamage(int damage)
@@ -39,7 +45,15 @@ public class Health : MonoBehaviour
                 Die();
             }
         }
+
+        UpdateHealthUi();
     }
+
+    private void UpdateHealthUi()
+    {
+        UiManager.Instance.UpdateHealthBar(health);
+    }
+
     private void Die()
     {
         //myRigidbody.simulated = false;
