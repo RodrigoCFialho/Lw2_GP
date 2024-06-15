@@ -6,6 +6,6 @@ public class YellowMine : MinesAirplane
 {
     protected override void ApplyEffects(GameObject player)
     {
-        
+        //Launch depthChargeStock = depthChargeMaxCapacity;
     }
 }

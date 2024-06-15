@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BlueMine : MinesSubmarine
 {
+    //DisablePlayerControls()  <- ?
     protected override void ApplyEffect(GameObject player)
     {
         
