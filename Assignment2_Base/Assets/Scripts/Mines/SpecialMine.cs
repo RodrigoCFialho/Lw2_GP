@@ -13,7 +13,19 @@ public class SpecialMine : Mines
         }
         else if (other.gameObject.CompareTag("Submarine"))
         {
-            //mine launch
+            other.gameObject.GetComponent<SubmarineLaunch>().Launch();
+            Explode();
+        }
+        else if (other.gameObject.CompareTag("LowerLimit"))
+        {
+            Explode();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Sky") && wasLaunchedBySubmarine)
+        {
             Explode();
         }
     }

@@ -14,5 +14,17 @@ public class BlackMine : Mines
             other.gameObject.GetComponent<Health>().TakeDamage(damage);
             Explode();
         }
+        else if (other.gameObject.CompareTag("LowerLimit"))
+        {
+            Explode();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Sky") && wasLaunchedBySubmarine)
+        {
+            Explode();
+        }
     }
 }

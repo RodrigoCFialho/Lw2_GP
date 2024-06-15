@@ -30,7 +30,7 @@ public class SubmarineSpawner : MonoBehaviour
         }
     }
 
-    private void SpawnSubmarine()
+    public void SpawnSubmarine()
     {
         float xSpawnValue = UnityEngine.Random.Range(-5f, 5f);
 

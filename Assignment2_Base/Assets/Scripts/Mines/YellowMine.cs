@@ -11,5 +11,17 @@ public class YellowMine : Mines
             other.gameObject.GetComponent<ShipLaunch>().RestoreStock();
             Explode();
         }
+        else if (other.gameObject.CompareTag("LowerLimit"))
+        {
+            Explode();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Sky") && wasLaunchedBySubmarine)
+        {
+            Explode();
+        }
     }
 }

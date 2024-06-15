@@ -51,6 +51,7 @@ public class SubmarineLaunch : MonoBehaviour, ILaunchable
         if (spawnedMine == 0)
         {
             GameObject blackMine = Instantiate(blackMinePrefab, spawnPoint.position, spawnPoint.rotation);
+            blackMine.GetComponent<Mines>().SetLaunchedBy(gameObject);
         }
         else if (spawnedMine == 1)
         {

@@ -22,6 +22,8 @@ public class SubmarineMovement : MonoBehaviour
     [SerializeField]
     private LayerMask wallLayerMask;
 
+    private bool isDead = false;
+
     private void Start()
     {
         StartCoroutine(CheckWalls());
@@ -29,7 +31,10 @@ public class SubmarineMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        myRigidBody2D.velocity = new Vector2(transform.right.x * speed, myRigidBody2D.velocity.y);
+        if (!isDead)
+        {
+            myRigidBody2D.velocity = new Vector2(transform.right.x * speed, myRigidBody2D.velocity.y);
+        }
     }
 
     private IEnumerator CheckWalls()
@@ -53,10 +58,8 @@ public class SubmarineMovement : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
+    public bool StopMoving()
     {
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawWireCube(wallDetectionPoint.position,
-                wallDetectionSize);
+        return isDead = true;
     }
 }

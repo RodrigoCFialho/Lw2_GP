@@ -8,6 +8,8 @@ public abstract class Mines : MonoBehaviour
 
     protected CircleCollider2D myCircleCollider2D;
 
+    protected bool wasLaunchedBySubmarine = false;
+
     protected void Awake()
     {
         myRigidbody2D = GetComponent<Rigidbody2D>();
@@ -16,7 +18,23 @@ public abstract class Mines : MonoBehaviour
 
     protected abstract void OnCollisionEnter2D(Collision2D other);
 
-    protected void Explode()      // public ou protected? :/
+    public void SetLaunchedBy(GameObject launcherObject)
+    {
+        if (launcherObject.CompareTag("Submarine"))
+        {
+            wasLaunchedBySubmarine = true;
+        }
+    }
+
+    public void PurpleMineEffect()
+    {
+        if (wasLaunchedBySubmarine)
+        {
+            Explode();
+        }
+    }
+
+    protected void Explode()
     {
         gameObject.GetComponent<ExplosionEffect>().Explode();
         myRigidbody2D.simulated = false;

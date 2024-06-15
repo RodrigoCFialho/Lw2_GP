@@ -26,7 +26,7 @@ public class PurpleMine : Mines
 
             for (int i = 0; i < mines.Length; ++i)
             {
-                //mines[i].gameObject.GetComponent<Mine>().Explode();
+                mines[i].gameObject.GetComponent<Mines>().PurpleMineEffect();
             }
 
             Explode();

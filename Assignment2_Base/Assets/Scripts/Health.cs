@@ -18,7 +18,6 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
-        maxHealth = health;
         myRigidbody = GetComponent<Rigidbody2D>();
     }
 
@@ -38,8 +37,6 @@ public class Health : MonoBehaviour
                 health = 0;
             }
 
-            OnTakeDamage.Invoke(health, maxHealth);
-
             if (health == 0)
             {
                 Die();
@@ -47,11 +44,6 @@ public class Health : MonoBehaviour
         }
 
         UpdateHealthUi();
-    }
-
-    public void MineDamage(int amount)
-    {
-        health -= amount;
     }
 
     private void UpdateHealthUi()
