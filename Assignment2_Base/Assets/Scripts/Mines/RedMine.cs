@@ -2,19 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedMine : MonoBehaviour
+public class RedMine : Mines
 {
-    private Rigidbody2D myRigidbody2D;
-
-    [SerializeField]
+   [SerializeField]
     private int damage = 10;
 
-    private void Awake()
-    {
-        myRigidbody2D = GetComponent<Rigidbody2D>();
-    }
-
-    private void OnCollisionEnter2D(Collision2D other)
+    protected override void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
@@ -24,14 +17,11 @@ public class RedMine : MonoBehaviour
         }
     }
 
-    public void Explode()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        gameObject.GetComponent<ExplosionEffect>().Explode();
-        myRigidbody2D.simulated = false;
-    }
-
-    public void Dismiss()
-    {
-        Destroy(gameObject);
+        if (other.gameObject.CompareTag("Sky"))
+        {
+            Explode();
+        }
     }
 }

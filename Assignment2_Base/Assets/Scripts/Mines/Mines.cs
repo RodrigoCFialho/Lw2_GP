@@ -4,33 +4,23 @@ using UnityEngine;
 
 public abstract class Mines : MonoBehaviour
 {
-    protected Rigidbody2D mineRigidBody;
+    protected Rigidbody2D myRigidbody2D;
 
-    private void Start()
-    {
-        mineRigidBody = GetComponent<Rigidbody2D>();
-    }
-    private void OnCollisionEnter2D(Collision2D other)  //talvez precise de ser virtual para a mina special
-    {
-        Explode();
+    protected CircleCollider2D myCircleCollider2D;
 
-        if (other.gameObject.CompareTag("Player"))
-        {
-            OnContact(other.gameObject);
-        }
+    protected void Awake()
+    {
+        myRigidbody2D = GetComponent<Rigidbody2D>();
+        myCircleCollider2D = GetComponent<CircleCollider2D>();
     }
 
-    protected abstract void OnContact(GameObject player);
+    protected abstract void OnCollisionEnter2D(Collision2D other);
 
-    protected void Explode()
+    protected void Explode()      // public ou protected? :/
     {
         gameObject.GetComponent<ExplosionEffect>().Explode();
-        StopFalling();
-    }
-
-    protected virtual void StopFalling()
-    {
-
+        myRigidbody2D.simulated = false;
+        myCircleCollider2D.enabled = false;
     }
 
     public void Dismiss()
