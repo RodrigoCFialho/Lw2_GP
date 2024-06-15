@@ -11,6 +11,8 @@ TagManager:
   - LowerLimit
   - Submarine
   - Sky
+  - Mine
+  - DepthCharge
   layers:
   - Default
   - TransparentFX

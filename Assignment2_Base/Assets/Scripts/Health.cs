@@ -49,6 +49,11 @@ public class Health : MonoBehaviour
         UpdateHealthUi();
     }
 
+    public void MineDamage(int amount)
+    {
+        health -= amount;
+    }
+
     private void UpdateHealthUi()
     {
         UiManager.Instance.UpdateHealthBar(health);

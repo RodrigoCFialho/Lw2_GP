@@ -28,8 +28,7 @@ public abstract class Mines : MonoBehaviour
         StopFalling();
     }
 
-    protected virtual void StopFalling()
-    { }
+    protected virtual void StopFalling() { }
 
     public void Dismiss()
     {

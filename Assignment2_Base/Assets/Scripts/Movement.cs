@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour
     [SerializeField]
     private float speed = 3f;
 
+    private bool gotSpeedBonus = false;
+
     private void Awake()
     {
         myRigidbody2D = GetComponent<Rigidbody2D>();
@@ -20,5 +22,19 @@ public class Movement : MonoBehaviour
     public void Sink()
     {
         myRigidbody2D.velocity = new Vector2(myRigidbody2D.velocity.x, -speed);
+    }
+
+    public void ToogleSpeed(float multiplier)
+    {
+        if(!gotSpeedBonus)
+        {
+            speed *= multiplier;
+            gotSpeedBonus = true;
+        }
+        else
+        {
+            speed /= multiplier;
+            gotSpeedBonus = false;
+        }
     }
 }

@@ -8,6 +8,9 @@ public abstract class MinesDamage : MinesSubmarine
     {
         Health health = player.GetComponent<Health>();
         ApplyDamage(health);
+        SecondEffect(player);
     }
     protected abstract void ApplyDamage(Health health);
+
+    protected virtual void SecondEffect(GameObject player) { }
 }
