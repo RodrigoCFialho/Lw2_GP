@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 
@@ -6,6 +7,11 @@ public class PoolManager : MonoBehaviour
     public static PoolManager Instance {  get; private set; }
 
     public IObjectPool<GameObject> DepthChargePool { get; private set;}
+
+    [SerializeField] List<PooledItem> poolItems = new List<PooledItem>();
+
+    //private Dictionary<GameObject, IObjectPool<GameObject>> pools =
+      //  new Dictionary<GameObject, IObjectPool<GameObject>>();
 
     [SerializeField]
     private GameObject depthChargePrefab;

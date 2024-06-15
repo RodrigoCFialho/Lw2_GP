@@ -1169,6 +1169,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f2e962025ee1104cb91f09a473630c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poolItems:
+  - <objectToPool>k__BackingField: {fileID: 123561254641524899, guid: 60d277b435693c445bbbfcbea9eec0a8, type: 3}
+    <maxPoolSize>k__BackingField: 0
+    <defaultPoolSize>k__BackingField: 0
+  - <objectToPool>k__BackingField: {fileID: 256935742528053934, guid: 5763e4ee78f80d34582e039072ca20d4, type: 3}
+    <maxPoolSize>k__BackingField: 0
+    <defaultPoolSize>k__BackingField: 0
+  - <objectToPool>k__BackingField: {fileID: 3806277744062689627, guid: 71581676f24b53440962de0bd38c49ac, type: 3}
+    <maxPoolSize>k__BackingField: 0
+    <defaultPoolSize>k__BackingField: 0
+  - <objectToPool>k__BackingField: {fileID: 4367709259465829873, guid: b533c7ed8bf440544add1f8424011f6f, type: 3}
+    <maxPoolSize>k__BackingField: 0
+    <defaultPoolSize>k__BackingField: 0
+  - <objectToPool>k__BackingField: {fileID: 5798833277451258374, guid: a3afed805afc6d04487d9438039806e1, type: 3}
+    <maxPoolSize>k__BackingField: 0
+    <defaultPoolSize>k__BackingField: 0
+  - <objectToPool>k__BackingField: {fileID: 518425000598420125, guid: ef1c6d5f35c41d44fb6d578a0a735a8c, type: 3}
+    <maxPoolSize>k__BackingField: 0
+    <defaultPoolSize>k__BackingField: 0
+  - <objectToPool>k__BackingField: {fileID: 3160719987880608300, guid: a8129e97e45dc844dbef3e2ffd21256a, type: 3}
+    <maxPoolSize>k__BackingField: 0
+    <defaultPoolSize>k__BackingField: 0
   depthChargePrefab: {fileID: 123561254641524899, guid: 60d277b435693c445bbbfcbea9eec0a8, type: 3}
   collectionChecks: 1
   initialPoolAmount: 5

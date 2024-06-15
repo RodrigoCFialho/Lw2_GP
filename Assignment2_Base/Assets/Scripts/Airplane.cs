@@ -32,8 +32,8 @@ public class Airplane : MonoBehaviour
 
     private void SpawnRandomMine()
     {
-        GameObject mine = PoolManager.Instance.MinePool.Get();
-        mine.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
+       // GameObject mine = PoolManager.Instance.MinePool.Get();
+       // mine.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
     }
 
     private void OnTriggerExit2D(Collider2D other)
