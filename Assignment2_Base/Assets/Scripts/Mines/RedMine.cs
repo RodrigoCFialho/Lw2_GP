@@ -2,20 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedMine : MinesDamage
+public class RedMine : MonoBehaviour
 {
-    [SerializeField]
-    private int redDamage = 10;
+    private Rigidbody2D myRigidbody2D;
 
     [SerializeField]
-    private float speedMultiplier = 2;
-    protected override void ApplyDamage(Health health)
+    private int damage = 10;
+
+    private void Awake()
     {
-        health.MineDamage(redDamage);
+        myRigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    protected override void SecondEffect(GameObject player)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        player.GetComponent<Movement>().ToogleSpeed(speedMultiplier);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<Health>().TakeDamage(damage);
+            other.gameObject.GetComponent<Movement>().ToogleSpeed();
+            Explode();
+        }
+    }
+
+    public void Explode()
+    {
+        gameObject.GetComponent<ExplosionEffect>().Explode();
+        myRigidbody2D.simulated = false;
+    }
+
+    public void Dismiss()
+    {
+        Destroy(gameObject);
     }
 }

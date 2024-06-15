@@ -135,6 +135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e80bbeaa0167374eabfb3c191d9949d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 20
+  checkRadius: 1.5
+  mineLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!50 &-2807458900069237835
 Rigidbody2D:
   serializedVersion: 4
@@ -150,7 +155,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: -1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -176,8 +181,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnExplosionEnd:
     m_PersistentCalls:
-      m_Calls: []
-  explosionPrefab: {fileID: 0}
-  numberOfExplosions: 0
-  explosionsOffset: {x: 0, y: 0}
+      m_Calls:
+      - m_Target: {fileID: -4917713585024047793}
+        m_TargetAssemblyTypeName: PurpleMine, Assembly-CSharp
+        m_MethodName: Dismiss
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  explosionPrefab: {fileID: 7875027177172315160, guid: b6a32ace72a5d2242b36515af64b5562, type: 3}
+  numberOfExplosions: 5
+  explosionsOffset: {x: 0.4, y: 0.3}
   explosionsInterval: 0.1

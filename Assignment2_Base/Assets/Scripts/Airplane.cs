@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Airplane : MonoBehaviour
+public class Airplane : MonoBehaviour, ILaunchable
 {
     private Rigidbody2D myRigidbody2D;
 
@@ -11,6 +11,15 @@ public class Airplane : MonoBehaviour
 
     [SerializeField]
     private float speed = 2f;
+
+    [SerializeField]
+    private GameObject blackMinePrefab;
+
+    [SerializeField]
+    private GameObject yellowMinePrefab;
+
+    [SerializeField]
+    private GameObject specialMinePrefab;
 
     private void Awake()
     {
@@ -26,14 +35,27 @@ public class Airplane : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SpawnRandomMine();
+            Launch();
         }
     }
 
-    private void SpawnRandomMine()
+    public void Launch()
     {
-       // GameObject mine = PoolManager.Instance.MinePool.Get();
-       // mine.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
+        int spawnedMine = Random.Range(0, 3);
+
+        if (spawnedMine == 0)
+        {
+            GameObject blackMine = Instantiate(blackMinePrefab, spawnPoint.position, spawnPoint.rotation);
+            blackMine.GetComponent<Rigidbody2D>().gravityScale *= -1;
+        }
+        else if (spawnedMine == 1)
+        {
+            GameObject yellowMine = Instantiate(yellowMinePrefab,spawnPoint.position, spawnPoint.rotation);
+        }
+        else
+        {
+            GameObject specialMine = Instantiate(specialMinePrefab, spawnPoint.position, spawnPoint.rotation);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)

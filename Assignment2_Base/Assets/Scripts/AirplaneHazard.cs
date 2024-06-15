@@ -35,8 +35,7 @@ public class AirplaneHazard : MonoBehaviour
 
     private void SpawnAirplane()
     {
-        int spawnLocation = Mathf.RoundToInt(Random.Range(0f, 1f));
-        print(spawnLocation);
+        int spawnLocation = Random.Range(0, 2);
 
         if (spawnLocation == 0)
         {

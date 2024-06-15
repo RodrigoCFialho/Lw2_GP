@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 6745082076079305546}
   - component: {fileID: 6106770604392864473}
   - component: {fileID: 279076565621460725}
+  - component: {fileID: -6427728271773123051}
   m_Layer: 8
   m_Name: Submarine
   m_TagString: Submarine
@@ -66,6 +67,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 669349426614648305}
+  - {fileID: 6284942531311765210}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &456087487559332059
@@ -138,7 +140,7 @@ MonoBehaviour:
   OnDie:
     m_PersistentCalls:
       m_Calls: []
-  health: 20
+  maxHealth: 100
 --- !u!114 &6745082076079305546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,3 +223,53 @@ CapsuleCollider2D:
   m_Offset: {x: -0.029721629, y: -0.06934992}
   m_Size: {x: 2.5005596, y: 0.6285569}
   m_Direction: 1
+--- !u!114 &-6427728271773123051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621420190843447534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1a5c09f1a235a44b3ef444378e34c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumPossibleTime: 0
+  maximumPossibleTime: 10
+  spawnPoint: {fileID: 6284942531311765210}
+  blackMinePrefab: {fileID: 256935742528053934, guid: 5763e4ee78f80d34582e039072ca20d4, type: 3}
+  redMinePrefab: {fileID: 5798833277451258374, guid: a3afed805afc6d04487d9438039806e1, type: 3}
+  purpleMinePrefab: {fileID: 4367709259465829873, guid: b533c7ed8bf440544add1f8424011f6f, type: 3}
+  blueMinePrefab: {fileID: 3806277744062689627, guid: 71581676f24b53440962de0bd38c49ac, type: 3}
+--- !u!1 &8673055848117866264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6284942531311765210}
+  m_Layer: 8
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6284942531311765210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8673055848117866264}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.188, y: 0.214, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7755039379233110531}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

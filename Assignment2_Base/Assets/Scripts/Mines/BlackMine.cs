@@ -2,15 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlackMine : Mines
+public class BlackMine : MonoBehaviour
 {
+    private Rigidbody2D myRigidbody2D;
+
+    private CircleCollider2D myCircleCollider2D;
+
     [SerializeField]
-    private int purpleDamage = 20;
-    protected override void OnContact(GameObject player)
+    private int damage = 20;
+
+    private void Awake()
     {
-        Health health = player.GetComponent<Health>();
-        health.MineDamage(purpleDamage);
+        myRigidbody2D = GetComponent<Rigidbody2D>();
+        myCircleCollider2D = GetComponent<CircleCollider2D>();
     }
 
-    //check se sai do submarino ou airplane?
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<Health>().TakeDamage(damage);
+            Explode();
+        }
+    }
+
+    public void Explode()
+    {
+        gameObject.GetComponent<ExplosionEffect>().Explode();
+        myRigidbody2D.simulated = false;
+        myCircleCollider2D.enabled = false;
+    }
+
+    public void Dismiss()
+    {
+        Destroy(gameObject);
+    }
 }

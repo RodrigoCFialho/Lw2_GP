@@ -24,16 +24,16 @@ public class Movement : MonoBehaviour
         myRigidbody2D.velocity = new Vector2(myRigidbody2D.velocity.x, -speed);
     }
 
-    public void ToogleSpeed(float multiplier)
+    public void ToogleSpeed()
     {
         if(!gotSpeedBonus)
         {
-            speed *= multiplier;
+            speed *= 2;
             gotSpeedBonus = true;
         }
         else
         {
-            speed /= multiplier;
+            speed /= 2;
             gotSpeedBonus = false;
         }
     }

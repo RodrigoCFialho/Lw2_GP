@@ -10,9 +10,6 @@ public class PoolManager : MonoBehaviour
 
     [SerializeField] List<PooledItem> poolItems = new List<PooledItem>();
 
-    //private Dictionary<GameObject, IObjectPool<GameObject>> pools =
-      //  new Dictionary<GameObject, IObjectPool<GameObject>>();
-
     [SerializeField]
     private GameObject depthChargePrefab;
 

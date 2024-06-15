@@ -176,8 +176,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnExplosionEnd:
     m_PersistentCalls:
-      m_Calls: []
-  explosionPrefab: {fileID: 0}
-  numberOfExplosions: 0
-  explosionsOffset: {x: 0, y: 0}
+      m_Calls:
+      - m_Target: {fileID: 7492889376893059655}
+        m_TargetAssemblyTypeName: YellowMine, Assembly-CSharp
+        m_MethodName: Dismiss
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  explosionPrefab: {fileID: 7875027177172315160, guid: b6a32ace72a5d2242b36515af64b5562, type: 3}
+  numberOfExplosions: 5
+  explosionsOffset: {x: 0.4, y: 0.3}
   explosionsInterval: 0.1

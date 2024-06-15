@@ -10,7 +10,7 @@ public abstract class Mines : MonoBehaviour
     {
         mineRigidBody = GetComponent<Rigidbody2D>();
     }
-    private void OnCollisionEnter2D(Collision2D other)  //talvez precise de ser virtual para a mina spetial
+    private void OnCollisionEnter2D(Collision2D other)  //talvez precise de ser virtual para a mina special
     {
         Explode();
 
@@ -28,7 +28,10 @@ public abstract class Mines : MonoBehaviour
         StopFalling();
     }
 
-    protected virtual void StopFalling() { }
+    protected virtual void StopFalling()
+    {
+
+    }
 
     public void Dismiss()
     {

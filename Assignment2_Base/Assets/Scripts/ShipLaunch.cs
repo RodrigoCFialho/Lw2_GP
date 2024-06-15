@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Launch : MonoBehaviour
+public class ShipLaunch : MonoBehaviour, ILaunchable
 {
     [SerializeField]
     private Transform spawnPoint;
@@ -15,11 +15,10 @@ public class Launch : MonoBehaviour
 
     private void Start()
     {
-        depthChargeStock = depthChargeMaxCapacity;
-        UiManager.Instance.UpdateDepthChargeText(depthChargeStock, depthChargeMaxCapacity);
+        RestoreStock();
     }
 
-    public void SpawnDepthCharge()
+    public void Launch()
     {
         if (0f < depthChargeStock && depthChargeStock <= depthChargeMaxCapacity)
         {
@@ -30,5 +29,11 @@ public class Launch : MonoBehaviour
             depthChargeStock -= 1;
             UiManager.Instance.UpdateDepthChargeText(depthChargeStock, depthChargeMaxCapacity);
         }
+    }
+
+    public void RestoreStock()
+    {
+        depthChargeStock = depthChargeMaxCapacity;
+        UiManager.Instance.UpdateDepthChargeText(depthChargeStock, depthChargeMaxCapacity);
     }
 }

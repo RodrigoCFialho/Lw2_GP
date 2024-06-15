@@ -2,9 +2,12 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class InputSystem : MonoBehaviour
 {
+    public static InputSystem Instance { get; private set; }
+
     private CustomInput customInput;
 
     private float moveInput;
@@ -14,6 +17,18 @@ public class InputSystem : MonoBehaviour
 
     [SerializeField]
     private UnityEvent onEnableLaunchEvent;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
@@ -53,5 +68,15 @@ public class InputSystem : MonoBehaviour
     public void DisablePlayerControls()
     {
         customInput.Player.Disable();
+    }
+
+    public void DisablePlayerLaunch()
+    {
+        customInput.Player.Launch.Disable();
+    }
+
+    public void EnablePlayerLaunch()
+    {
+        customInput.Player.Launch.Enable();
     }
 }

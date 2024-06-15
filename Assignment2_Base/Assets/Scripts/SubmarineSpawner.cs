@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class SubmarineSpawner : MonoBehaviour
@@ -8,14 +9,6 @@ public class SubmarineSpawner : MonoBehaviour
 
     [SerializeField]
     private SubmarineMovement submarinePrefab;
-
-    [SerializeField]
-    private List<int> spawnLane = new List<int>();
-
-    [SerializeField]
-    private int numberOfSubmarinesToSpawn = 3;
-
-    private int randomSpawnLane;
 
     private void Awake()
     {
@@ -31,23 +24,48 @@ public class SubmarineSpawner : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < numberOfSubmarinesToSpawn; ++i)
+        for (int i = 0; i < 3; ++i)
         {
             SpawnSubmarine();
         }
     }
 
-    private void DetermineSpawnPoint()
-    {
-        randomSpawnLane = Random.Range(0, spawnLane.Count);
-        spawnLane.RemoveAt(randomSpawnLane);
-        print(randomSpawnLane);
-    }
-
     private void SpawnSubmarine()
     {
-        DetermineSpawnPoint();
+        float xSpawnValue = UnityEngine.Random.Range(-5f, 5f);
+
+        int spawnLaneChance = UnityEngine.Random.Range(0, 4);
+        int lane;
+        if (spawnLaneChance == 0)
+        {
+            lane = -4;
+        }
+        else if (spawnLaneChance == 1)
+        {
+            lane = -3;
+        }
+        else if (spawnLaneChance == 2)
+        {
+            lane = -2;
+        }
+        else
+        {
+            lane = -1;
+        }
+
+        int flipChance = UnityEngine.Random.Range(0, 2);
+        Quaternion submarineRotation;
+        if (flipChance == 0)
+        {
+            submarineRotation = transform.rotation;
+        }
+        else
+        {
+            transform.Rotate(0f, 180f, 0f);
+            submarineRotation = transform.rotation;
+        }
+
         SubmarineMovement submarineMovement = Instantiate
-            (submarinePrefab, new Vector2(0f, spawnLane[randomSpawnLane]), Quaternion.identity);
+            (submarinePrefab, new Vector2(xSpawnValue, lane), submarineRotation);
     }
 }
